@@ -4,3 +4,25 @@
   margin: 0 auto;
   text-align: center;
 }
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  input{
+    height: 30px;
+    border-color: rgb(90, 90, 98);
+    border-radius: 7px;
+    border-width: 2px;
+    padding-left: 10px ;
+    padding-right: 10px ;
+
+
+  }
+  button{
+    background-color:#0D3B66;
+    color:white;
+    padding: 10px;
+    
+  }
+}
